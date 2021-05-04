@@ -355,7 +355,7 @@ public class DefaultCategoryProvider implements CategoryProvider {
             }
 
             return onDeviceWallpapers.isEmpty() ? null : new WallpaperCategory(
-                    mAppContext.getString(R.string.on_device_wallpapers_category_title),
+                    mAppContext.getString(R.string.corvus_wallpapers_category_title),
                     mAppContext.getString(R.string.on_device_wallpaper_collection_id),
                     onDeviceWallpapers,
                     PRIORITY_ON_DEVICE);
@@ -368,7 +368,7 @@ public class DefaultCategoryProvider implements CategoryProvider {
             onDeviceWallpapers.add(defaultWallpaperInfo);
 
             return new DesktopCustomCategory(
-                    mAppContext.getString(R.string.on_device_wallpapers_category_title_desktop),
+                    mAppContext.getString(R.string.corvus_wallpapers_category_title_desktop),
                     mAppContext.getString(R.string.on_device_wallpaper_collection_id),
                     onDeviceWallpapers,
                     PRIORITY_MY_PHOTOS);
