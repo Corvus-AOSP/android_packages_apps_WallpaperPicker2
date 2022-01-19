@@ -403,7 +403,7 @@ public class CategorySelectorFragment extends AppbarFragment {
             categoryView.getLayoutParams().height = height;
             // Use the height as the card corner radius for the "My photos" category
             // for a stadium border.
-            categoryView.setRadius(height);
+            // categoryView.setRadius(height);
         }
     }
 
