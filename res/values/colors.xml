@@ -44,5 +44,5 @@
     <color name="myphoto_background_cloud">@color/google_grey200</color>
     <color name="color_accent_primary">@android:color/system_accent1_100</color>
     <color name="color_accent_primary_variant">@android:color/system_accent1_600</color>
-
+    <color name="wallpaper_button">@android:color/system_accent2_100</color>
 </resources>

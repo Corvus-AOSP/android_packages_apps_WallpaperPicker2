@@ -19,4 +19,5 @@
     <color name="myphoto_background_color">@color/black</color>
     <color name="myphoto_background_cloud">@color/google_grey800</color>
     <color name="color_accent_primary_variant">@android:color/system_accent1_300</color>
+    <color name="wallpaper_button">@android:color/system_accent1_50</color>
 </resources>
